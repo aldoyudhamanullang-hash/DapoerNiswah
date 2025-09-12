@@ -11,21 +11,23 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #000000;
-    background-color: rgba(255, 170, 0, 0.8)
+    background-color: #ffecb3;
 }
 
 header {
-    background-color: rgba(247, 255, 4, 0.8); /* Soft green */
-    color: #000000;
-    padding: 1rem;
+    background-color: #7a8b3b; /* hijau zaitun hangat */
+    color: #fff;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
+    color: #fff;
 }
 
 nav ul {
@@ -38,13 +40,13 @@ nav ul li {
 }
 
 nav a {
-    color: #000000;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ffa500; /* Orange accent */
+    color: #ffd54f /* Orange accent */
 }
 
 /* Hero Section */
